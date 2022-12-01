@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main id="main">
+    <h1 id="title">TOM</h1>
+    <p>AND JERRY</p>
+    <figure id="img-div">
+      <img id="image" src="https://m.media-amazon.com/images/I/81Y+e-1BLTL._RI_.jpg" alt="TOM">
+
+    <tribute-info id="tribute-info">
+        Here lies Tom
+        <tribute-info />
+
+    <figcaption id="img-caption">
+        And Jerry
+    </figcaption>
+
+        <a id="tribute-link" href="https://www.amazon.co.uk/Tom-Jerry-Complete-Fifth-Season/dp/B08VVYLDNC" target="_blank">AMAZON</a>
+
+  </main>
+
+</body>
+
+</html>
+
+
+
+
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Tourney", cursive;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#main {
+  margin: 0;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+img {
+  max-width: 25%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
